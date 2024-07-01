@@ -12,7 +12,18 @@
 let numbers = [];
 console.log(numbers);
 
+// creo il ciclo per chiedere 6 numeri all'utente
 
+for (let i = 0; i < 6; i++){
+
+    let userNumber = parseInt(prompt('Inserisci un numero'));
+    console.log(userNumber);
+
+    // controllo se il numero e dispari
+    if (userNumber % 2 !== 0){
+        numbers.push(userNumber);
+    }
+}
 
 
 
