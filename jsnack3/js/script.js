@@ -6,4 +6,4 @@
 // chiedo all'utente di inserire un numero a 4 cifre
 
 let number = prompt('Inserisci un numero a 4 cifre');
-console.log('number');
+console.log(number);
