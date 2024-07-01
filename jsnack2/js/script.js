@@ -6,3 +6,7 @@
 // messaggio di debug
 
 // alert('riempiamo un array con i valori');
+
+// creo un array vuoto
+
+let numers = [];
