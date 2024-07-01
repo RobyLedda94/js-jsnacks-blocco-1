@@ -14,3 +14,6 @@ console.log(usersList);
 
 // Tramite prompt chiedo all'utente di inserire il suo nome
 
+let userName = prompt('Inserisci il tuo nome');
+console.log(userName);
+
