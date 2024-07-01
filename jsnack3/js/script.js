@@ -17,5 +17,11 @@ let somma = 0;
 // ciclo di controllo per la cifra inserita
 
 for (let i = 0; i < number.length; i++){
-    somma += prompt(number);
+
+    // converto la cifra inserita in numero intero e la sommo
+   somma += parseInt(number[i]);
+   
 }
+
+// visualizzo il risultato in console
+console.log ('la somma del numero' +  number + 'e:' + somma);
