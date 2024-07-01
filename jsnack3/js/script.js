@@ -7,3 +7,9 @@
 
 let number = prompt('Inserisci un numero a 4 cifre');
 console.log(number);
+
+
+// definiamo varibile per la domma delle cifre
+
+let somma = 0;
+// console.log(somma);
