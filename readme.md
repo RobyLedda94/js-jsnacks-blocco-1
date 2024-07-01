@@ -12,10 +12,11 @@
 <!-- Pseudo coduce snack 2 (riempimento array) -->
 
 1 - Creo un array vuoto 
-2 - Tramite prompt chiedo all'utente di inserire un numero per 6 volte
-3 - creo una condizionale di controllo per  verificare se il nmero e pari o dispari
- 3.1 - se dispari viene inderito nell'array vuoto
- 3.2 - anltimenti non faccio nulla.
+2 - creo un ciclo per chiedere 6 numeri all'utente
+3 - Tramite prompt chiedo all'utente di inserire un numero per 6 volte
+4 - Controllo se il numero inserito e dispari
+ 4.1 - se dispari viene inderito nell'array vuoto
+ 4.2 - anltimenti non faccio nulla.
 
 
 
