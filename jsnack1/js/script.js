@@ -17,3 +17,22 @@ console.log(usersList);
 let userName = prompt('Inserisci il tuo nome');
 console.log(userName);
 
+
+
+// Creo la cpndizionale di controllo per stabilire che il nome sia presente nell'array
+
+let foundName = false;
+
+for (let i = 0; i < usersList.length; i++){
+    if (usersList[i] === userName){
+        foundName = true;
+    }
+}
+
+if (foundName === true){
+    console.log('Il tuo nome e sulla lista prego');
+}
+
+else {
+    console.log('Il tuo nome non è sulla lista arrivederci');
+}
