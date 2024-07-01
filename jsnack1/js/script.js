@@ -8,5 +8,9 @@
 
 // Creazione array con lista nomi degli invitati
 
-const usersName = ['antonio', 'gianluca', 'roberta', 'roberto', 'alessandro'];
-console.log(usersName);
+const usersList = ['antonio', 'gianluca', 'roberta', 'roberto', 'alessandro'];
+console.log(usersList);
+
+
+// Tramite prompt chiedo all'utente di inserire il suo nome
+
