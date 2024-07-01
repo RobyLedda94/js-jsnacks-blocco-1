@@ -9,4 +9,12 @@
 
 // creo un array vuoto
 
-let numers = [];
+let numbers = [];
+console.log(numbers);
+
+// chiedo all'utente di inserire un numero da 1 a 6
+
+let userNumbers = parseInt(prompt('Inserisci un numero'));
+console.log(userNumbers);
+
+
