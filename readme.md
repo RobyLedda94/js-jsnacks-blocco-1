@@ -23,7 +23,7 @@
  <!--Pseudo codice snack 3 (somma)  -->
 
 
- 1 - creo un array con una lista di numeri
- 2 - tramite prompt chiedo all'utente di inserire un numero a 4 cifre
+
+ 1 - tramite prompt chiedo all'utente di inserire un numero a 4 cifre
  3 - definisco la variabile per eseguire la somma dei numeri contenuti nell'array
  4 - vado a ciclare l'array per stabilire la somma dei numeri
