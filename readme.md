@@ -25,5 +25,5 @@
 
 
  1 - tramite prompt chiedo all'utente di inserire un numero a 4 cifre
- 3 - definisco la variabile per eseguire la somma dei numeri contenuti nell'array
- 4 - vado a ciclare l'array per stabilire la somma dei numeri
+ 2 - inizializzo una variabile per la somma delle cifre
+ 3 - creo un ciclo di controllo per ogni cifra, per poi convertire in numero intero

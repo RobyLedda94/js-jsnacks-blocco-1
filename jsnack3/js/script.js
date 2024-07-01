@@ -13,3 +13,9 @@ console.log(number);
 
 let somma = 0;
 // console.log(somma);
+
+// ciclo di controllo per la cifra inserita
+
+for (let i = 0; i < number.length; i++){
+    somma += prompt(number);
+}
