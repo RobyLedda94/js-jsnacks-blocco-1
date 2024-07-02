@@ -6,5 +6,8 @@
 // RECUPERO IL PULSANTE DAL DOM
 document.getElementById('send-number').addEventListener('click', function (){
     // PRENDO IL VALORE DEL CAMPO INPUT
-    let num = document.getElementById('number')
+    let num = document.getElementById('number').value;
+    
+    // DICHIARO LA VARIABILE CHE CONTIENE LA SOMMA DELLE CIFRE
+    let somma = 0;
 });
