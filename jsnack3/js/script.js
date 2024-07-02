@@ -7,7 +7,17 @@
 document.getElementById('send-number').addEventListener('click', function (){
     // PRENDO IL VALORE DEL CAMPO INPUT
     let num = document.getElementById('number').value;
+
+    // VERIFICO CHE IL NUMERO INDERITO SIA DI QUATTRO CIFRE
+    if (num.length === 4){
+            // DICHIARO LA VARIABILE CHE CONTIENE LA SOMMA DELLE CIFRE
+            let somma = 0;
+
+            for (let i = 0;i < num.length; i++){
+                console.log(num[i]);
+            }
+
+    }
     
-    // DICHIARO LA VARIABILE CHE CONTIENE LA SOMMA DELLE CIFRE
-    let somma = 0;
+
 });
