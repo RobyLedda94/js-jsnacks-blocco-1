@@ -4,6 +4,7 @@
 
 
 // RECUPERO IL PULSANTE DAL DOM
-document.getElementById('number').addEventListener('click', function (){
-
+document.getElementById('send-number').addEventListener('click', function (){
+    // PRENDO IL VALORE DEL CAMPO INPUT
+    let num = document.getElementById('number')
 });
