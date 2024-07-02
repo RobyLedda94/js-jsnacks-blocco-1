@@ -24,7 +24,10 @@
 
 
 
- 1 - tramite prompt chiedo all'utente di inserire un numero a 4 cifre
- 2 - inizializzo una variabile per la somma delle cifre
- 3 - creo un ciclo di controllo per ogni cifra, per poi convertire in numero intero
- 4 - stampo il risultato in console
+1 - permetto all'utente di inserire un numero
+2 - se il numero e di 4 cifre allora calcolo la somma delle cifre che lo compongono
+2.1 - sompongo il numero in un array contenete le cifre che lo compongono in ogni posizione
+2.2 - dichiaro una variabile che cpntiene la somma dei numeri
+2.3 - ciclo l'array
+2.4 - sommo i numeri
+3 - altrimenti non faccio nulla
