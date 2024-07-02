@@ -3,3 +3,7 @@
 // e calcola la somma di tutte le cifre che compongono il numero..
 
 
+// RECUPERO IL PULSANTE DAL DOM
+document.getElementById('number').addEventListener('click', function (){
+
+});
