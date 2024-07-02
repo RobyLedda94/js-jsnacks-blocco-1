@@ -15,8 +15,8 @@ document.getElementById('send-number').addEventListener('click', function (){
 
             for (let i = 0;i < num.length; i++){
                 somma += parseInt(num[i]);
-                console.log(somma);
             }
+            console.log(somma);
 
     }
     
